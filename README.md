@@ -13,7 +13,7 @@ Here, we instead ask the following question: which combination of events leads t
 1. The sum is 3, and we lose both. The payout is -$2.
 2. The sum is "small," so we make +$1 on the small bet, but lose $1 by consequence of the sum not being "big." The payout is $1 - $1 = $0.
 3. The sum is "big," which follows the same argument as the sum being "small." The payout is $0.
-4. The sum is 18, which follows the same argument as the sum being 3. The payouut is -$2.
+4. The sum is 18, which follows the same argument as the sum being 3. The payout is -$2.
 
 Thus, when selecting these two events, there is a probability of 0 that we see positive returns.
 
