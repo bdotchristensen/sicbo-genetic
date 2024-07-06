@@ -1,10 +1,10 @@
 ## Sic Bo Optimal Strategy
-This code uses a genetic algorthm to play the casino game sic bo optimally.
+This code uses a genetic algorthm to play the casino game Sic Bo optimally.
 
 _Disclaimer: By construction, no strategy grants the player a positive expected value in terms of payouts. Rather, we solve a slightly different question here._
 
 ### Gameplay
-Sic bo is played using three fair six-sided dice and a board consisting of predictions for the dice's values. Predictions include but are not limited to the specific sum of the dice (e.g. 4, 9, 12), that a one will be present on one of the faces, that all three of the dice will show the same value, or that a 4 and a 6 will be present in the outcome of the dice. The player bets on which of these outcomes will happen, and they may select as many as they choose and a specific dollar amount for each. Based on the probabilities of these occurrences, a specific payout is granted as a multiple of the initial bet. For instance, a valid bet on all three dice showing the same value pays 31 times the initial bet (1 to 31), and a 4 and a 6 being present pays 1 to 6. Note that specific payouts may depend on the casino; the payouts used here come from an undisclosed casino in Canada. 
+Sic Bo is played using three fair six-sided dice and a board consisting of predictions for the dice's values. Predictions include but are not limited to the specific sum of the dice (e.g. 4, 9, 12), that a one will be present on one of the faces, that all three of the dice will show the same value, or that a 4 and a 6 will be present in the outcome of the dice. The player bets on which of these outcomes will happen, and they may select as many as they choose and a specific dollar amount for each. Based on the probabilities of these occurrences, a specific payout is granted as a multiple of the initial bet. For instance, a valid bet on all three dice showing the same value pays 31 times the initial bet (1 to 31), and a 4 and a 6 being present pays 1 to 6. Note that specific payouts may depend on the casino; the payouts used here come from an undisclosed casino in Canada. 
 
 When individually selected, several events are isometric to each other. Each of these has a negative expected payout, as can be seen through basic statistical computations. A linearity of expectation argument shows that no combination of events leads to positive expected returns, by consequence. Therefore, there is no way to ensure positive returns in the long run when playing sic bo. 
 
